@@ -12,3 +12,7 @@ URL "amqp://guest:guest@localhost:5672" sama dalam kedua program publisher dan s
 
 * Screen of Running RabbitMQ  
 ![](images/runningMQ.png)
+
+* Publisher and Subscriber Console  
+![](images/snpevent.png)  
+Gambar di atas menunjukkan bahwa setelah menjalankan cargo run pada console publisher, maka publisher akan mengirimkan data 5 user melalui broker, lalu data tersebut ditampilkan di dalam console subscriber. 
