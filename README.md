@@ -16,3 +16,7 @@ URL "amqp://guest:guest@localhost:5672" sama dalam kedua program publisher dan s
 * Publisher and Subscriber Console  
 ![](images/snpevent.png)  
 Gambar di atas menunjukkan bahwa setelah menjalankan cargo run pada console publisher, maka publisher akan mengirimkan data 5 user melalui broker, lalu data tersebut ditampilkan di dalam console subscriber. 
+
+* Spike on RabbitMQ  
+![](images/spikeMQ.png)  
+Spike pada chart terjadi karena adanya burst message/lonjakan yang dipublish oleh publisher dan lonjakan consumption dari subscriber. 
